@@ -41,6 +41,7 @@
 		6F8C25AF250300AC00D0A2D3 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C258E250300AC00D0A2D3 /* WorkSans-Bold.ttf */; };
 		6F8C25B3250300B600D0A2D3 /* DesignSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C25B1250300B500D0A2D3 /* DesignSwiftUITests.swift */; };
 		6F8C25B8250300BF00D0A2D3 /* DesignSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C25B6250300BF00D0A2D3 /* DesignSwiftUIUITests.swift */; };
+		6FA2B6B42507E0630006E229 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2B6B32507E0630006E229 /* LoginView.swift */; };
 		6FD04C2A25069706005BB92B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD04C2925069706005BB92B /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,7 @@
 		6F8C25B2250300B500D0A2D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8C25B6250300BF00D0A2D3 /* DesignSwiftUIUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSwiftUIUITests.swift; sourceTree = "<group>"; };
 		6F8C25B7250300BF00D0A2D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA2B6B32507E0630006E229 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6FD04C2925069706005BB92B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		E88438C824365BF700414007 /* DesignSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88438DE24365BF900414007 /* DesignSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				6F8C256E250300AC00D0A2D3 /* CourseStore.swift */,
 				6F8C256F250300AC00D0A2D3 /* PostList.swift */,
 				6F8C2571250300AC00D0A2D3 /* HomeView.swift */,
+				6FA2B6B32507E0630006E229 /* LoginView.swift */,
 				6F8C2572250300AC00D0A2D3 /* Home.swift */,
 				6F8C2573250300AC00D0A2D3 /* Modifiers.swift */,
 				6F8C2576250300AC00D0A2D3 /* LaunchScreen.storyboard */,
@@ -387,6 +390,7 @@
 				6F8C259F250300AC00D0A2D3 /* CourseList.swift in Sources */,
 				6F8C259C250300AC00D0A2D3 /* UpdateDetail.swift in Sources */,
 				6F8C2593250300AC00D0A2D3 /* PostList.swift in Sources */,
+				6FA2B6B42507E0630006E229 /* LoginView.swift in Sources */,
 				6FD04C2A25069706005BB92B /* Buttons.swift in Sources */,
 				6F8C2592250300AC00D0A2D3 /* CourseStore.swift in Sources */,
 				6F8C25A5250300AC00D0A2D3 /* SceneDelegate.swift in Sources */,
