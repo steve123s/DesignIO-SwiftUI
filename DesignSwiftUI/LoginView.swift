@@ -15,11 +15,28 @@ struct LoginView: View {
     @State var showAlert = false
     @State var alertMessage = "Something went wrong."
     @State var isLoading = false
+    @State var isSuccessful = false
     
     func hideKeyboard() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 
+    func login() {
+        
+        self.hideKeyboard()
+        self.isFocused = false
+        self.isLoading = true
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.isSuccessful = true
+            self.isLoading = false
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+            self.isSuccessful = false
+        }
+        
+    }
     
     var body: some View {
         
@@ -92,15 +109,7 @@ struct LoginView: View {
                     Spacer()
                     
                     Button(action: {
-                        self.hideKeyboard()
-                        self.isFocused = false
-                        self.isLoading = true
-
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                            self.showAlert = true
-                            self.isLoading = false
-                        }
-                        
+                        self.login()
                     }) {
                         Text("Log in".uppercased())
                             .foregroundColor(.black)
@@ -129,6 +138,11 @@ struct LoginView: View {
             if isLoading {
                 LoadingView()
             }
+            
+            if isSuccessful {
+               SuccessView()
+            }
+            
         }
         
     }

@@ -47,6 +47,8 @@
 		6FA4CA0925095375000C6AB4 /* cat.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FA4CA0825095374000C6AB4 /* cat.json */; };
 		6FD04C2A25069706005BB92B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD04C2925069706005BB92B /* Buttons.swift */; };
 		6FFC29CB250953EB00D5F98B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC29CA250953EB00D5F98B /* LoadingView.swift */; };
+		6FFC29CD250960E400D5F98B /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC29CC250960E400D5F98B /* SuccessView.swift */; };
+		6FFC29CF2509611F00D5F98B /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FFC29CE2509611F00D5F98B /* rocket.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		6FA4CA0825095374000C6AB4 /* cat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat.json; sourceTree = "<group>"; };
 		6FD04C2925069706005BB92B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		6FFC29CA250953EB00D5F98B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6FFC29CC250960E400D5F98B /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		6FFC29CE2509611F00D5F98B /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
 		E88438C824365BF700414007 /* DesignSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88438DE24365BF900414007 /* DesignSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88438E924365BF900414007 /* DesignSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +157,7 @@
 				6F8C256F250300AC00D0A2D3 /* PostList.swift */,
 				6F8C2571250300AC00D0A2D3 /* HomeView.swift */,
 				6FA2B6B32507E0630006E229 /* LoginView.swift */,
+				6FFC29CC250960E400D5F98B /* SuccessView.swift */,
 				6F8C2572250300AC00D0A2D3 /* Home.swift */,
 				6F8C2573250300AC00D0A2D3 /* Modifiers.swift */,
 				6F8C2576250300AC00D0A2D3 /* LaunchScreen.storyboard */,
@@ -168,6 +173,7 @@
 				6F8C2581250300AC00D0A2D3 /* MenuView.swift */,
 				6FD04C2925069706005BB92B /* Buttons.swift */,
 				6F8C2570250300AC00D0A2D3 /* Assets.xcassets */,
+				6FFC29CE2509611F00D5F98B /* rocket.json */,
 				6FA4CA0825095374000C6AB4 /* cat.json */,
 				6F8C2582250300AC00D0A2D3 /* Info.plist */,
 				6F8C2574250300AC00D0A2D3 /* Preview Content */,
@@ -359,6 +365,7 @@
 				6F8C25AE250300AC00D0A2D3 /* WorkSans-Black.ttf in Resources */,
 				6F8C2599250300AC00D0A2D3 /* LaunchScreen.storyboard in Resources */,
 				6F8C25AF250300AC00D0A2D3 /* WorkSans-Bold.ttf in Resources */,
+				6FFC29CF2509611F00D5F98B /* rocket.json in Resources */,
 				6F8C2598250300AC00D0A2D3 /* Preview Assets.xcassets in Resources */,
 				6F8C25AB250300AC00D0A2D3 /* WorkSans-SemiBold.ttf in Resources */,
 				6F8C2594250300AC00D0A2D3 /* Assets.xcassets in Resources */,
@@ -405,6 +412,7 @@
 				6F8C259F250300AC00D0A2D3 /* CourseList.swift in Sources */,
 				6F8C259C250300AC00D0A2D3 /* UpdateDetail.swift in Sources */,
 				6F8C2593250300AC00D0A2D3 /* PostList.swift in Sources */,
+				6FFC29CD250960E400D5F98B /* SuccessView.swift in Sources */,
 				6FA2B6B42507E0630006E229 /* LoginView.swift in Sources */,
 				6FD04C2A25069706005BB92B /* Buttons.swift in Sources */,
 				6F8C2592250300AC00D0A2D3 /* CourseStore.swift in Sources */,
