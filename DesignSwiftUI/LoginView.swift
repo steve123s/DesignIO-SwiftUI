@@ -17,6 +17,7 @@ struct LoginView: View {
     @State var alertMessage = "Something went wrong."
     @State var isLoading = false
     @State var isSuccessful = false
+    @EnvironmentObject var user: UserStore
     
     func hideKeyboard() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
@@ -35,10 +36,12 @@ struct LoginView: View {
                 self.showAlert = true
             } else {
                 self.isSuccessful = true
+                self.user.isLogged = true
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2){
                     self.isSuccessful = false
                     self.email = ""
                     self.password = ""
+                    self.user.showLogin = false
                 }
             }
         }

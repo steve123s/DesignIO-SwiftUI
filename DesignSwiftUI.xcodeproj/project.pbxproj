@@ -42,6 +42,7 @@
 		6F8C25AF250300AC00D0A2D3 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C258E250300AC00D0A2D3 /* WorkSans-Bold.ttf */; };
 		6F8C25B3250300B600D0A2D3 /* DesignSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C25B1250300B500D0A2D3 /* DesignSwiftUITests.swift */; };
 		6F8C25B8250300BF00D0A2D3 /* DesignSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C25B6250300BF00D0A2D3 /* DesignSwiftUIUITests.swift */; };
+		6F9542062509712600109A60 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9542052509712600109A60 /* UserStore.swift */; };
 		6FA2B6B42507E0630006E229 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2B6B32507E0630006E229 /* LoginView.swift */; };
 		6FA4CA05250950D2000C6AB4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6FA4CA04250950D2000C6AB4 /* Lottie */; };
 		6FA4CA07250951F1000C6AB4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4CA06250951F1000C6AB4 /* LottieView.swift */; };
@@ -115,6 +116,7 @@
 		6F8C25B2250300B500D0A2D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8C25B6250300BF00D0A2D3 /* DesignSwiftUIUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSwiftUIUITests.swift; sourceTree = "<group>"; };
 		6F8C25B7250300BF00D0A2D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9542052509712600109A60 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		6FA2B6B32507E0630006E229 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6FA4CA06250951F1000C6AB4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		6FA4CA0825095374000C6AB4 /* cat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat.json; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				6F8C256F250300AC00D0A2D3 /* PostList.swift */,
 				6F8C2571250300AC00D0A2D3 /* HomeView.swift */,
 				6FA2B6B32507E0630006E229 /* LoginView.swift */,
+				6F9542052509712600109A60 /* UserStore.swift */,
 				6FFC29CC250960E400D5F98B /* SuccessView.swift */,
 				6F8C2572250300AC00D0A2D3 /* Home.swift */,
 				6F8C2573250300AC00D0A2D3 /* Modifiers.swift */,
@@ -564,6 +567,7 @@
 				6F8C259F250300AC00D0A2D3 /* CourseList.swift in Sources */,
 				6F8C259C250300AC00D0A2D3 /* UpdateDetail.swift in Sources */,
 				6F8C2593250300AC00D0A2D3 /* PostList.swift in Sources */,
+				6F9542062509712600109A60 /* UserStore.swift in Sources */,
 				6FFC29CD250960E400D5F98B /* SuccessView.swift in Sources */,
 				6FA2B6B42507E0630006E229 /* LoginView.swift in Sources */,
 				6FD04C2A25069706005BB92B /* Buttons.swift in Sources */,

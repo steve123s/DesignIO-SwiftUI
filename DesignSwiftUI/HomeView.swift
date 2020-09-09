@@ -22,7 +22,7 @@ struct HomeView: View {
                         //.modifier(CustomFontModifier(size: 34))
                     
                     Spacer()
-                    MeView(showProfile: $showProfile)
+                    AvatarView(showProfile: $showProfile)
                     
                     Button(action: {self.showUpdate.toggle()}) {
                         Image(systemName: "bell")
