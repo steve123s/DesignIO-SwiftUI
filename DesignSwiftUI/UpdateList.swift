@@ -58,6 +58,7 @@ struct UpdateList: View {
             .navigationBarItems(leading: Button(action: {self.addUpdate()}) {
                 Text("Add Update")
             }, trailing: EditButton())
+            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
