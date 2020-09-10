@@ -28,17 +28,13 @@ struct Home: View {
                 .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
                 .edgesIgnoringSafeArea(.all)
             
-            HomeView(showProfile: $showProfile, showContent: $showContent, viewState: $viewState)
-                .background(
-                    VStack {
-                        LinearGradient(gradient: Gradient(colors: [Color("background2"), Color("background1")]), startPoint: .top, endPoint: .bottom)
-                            .frame(height: 200)
-                        Spacer()
-                    }
-                    .background(Color("background1"))
-                )
-                .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-                .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
+//            TabView {
+                HomeView(showProfile: $showProfile, showContent: $showContent, viewState: $viewState)
+//                    .tabItem {
+//                        Image(systemName: "play.circle.fill")
+//                        Text("Home")
+//                    }
+//            }
             
             MenuView(showProfile: $showProfile)
                 .background(Color.black.opacity(0.001))
@@ -123,7 +119,7 @@ struct AvatarView: View {
     
     var body: some View {
         VStack {
-            if !user.isLogged {
+            if user.isLogged {
                 Button(action: {self.showProfile.toggle()}) {
                     Image("Avatar")
                         .renderingMode(.original)

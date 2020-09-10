@@ -21,12 +21,11 @@ struct TabBar: View {
                 Text("Certificates")
             }
         }
-        //.edgesIgnoringSafeArea(.top)
     }
 }
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
-        TabBar()
+        TabBar().environmentObject(UserStore())
     }
 }

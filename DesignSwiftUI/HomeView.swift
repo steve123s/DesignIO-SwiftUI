@@ -21,6 +21,13 @@ struct HomeView: View {
     @State var showUpdate = false
     @Binding var showContent: Bool
     @Binding var viewState: CGSize
+    @State var courses = courseData
+    //@ObservedObject var store = CourseStore()
+    @State var active = false
+    @State var activeIndex = -1
+    @State var activeView = CGSize.zero
+    @State var isScrollable = false
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     var body: some View {
         GeometryReader { bounds in
@@ -49,6 +56,7 @@ struct HomeView: View {
                             UpdateList()
                         }
                     }
+                    .blur(radius: self.active ? 20 : 0)
                     .padding(.horizontal)
                     .padding(.leading, 14)
                     .padding(.top, 30)
@@ -61,6 +69,7 @@ struct HomeView: View {
                                 self.showContent = true
                             }
                     }
+                    .blur(radius: self.active ? 20 : 0)
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 30) {
@@ -77,6 +86,7 @@ struct HomeView: View {
                         .padding(30)
                         .padding(.bottom, 30)
                     }
+                    .blur(radius: self.active ? 20 : 0)
                     .offset(y: -30)
                     
                     HStack {
@@ -84,6 +94,7 @@ struct HomeView: View {
                             .font(.title).bold()
                         Spacer()
                     }
+                    .blur(radius: self.active ? 20 : 0)
                     .padding(.leading, 30)
                     .offset(y: -60)
                     
@@ -96,6 +107,7 @@ struct HomeView: View {
                 .scaleEffect(showProfile ? 0.9 : 1)
                 .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
             }
+            .disabled(self.active && !self.isScrollable ? true : false)
         }
     }
 }
